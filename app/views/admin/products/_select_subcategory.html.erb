@@ -1,0 +1,5 @@
+<% if @subcategories.present? and @product.persisted? %>
+  Subcategory<%= select_tag 'product[subcategory_ids][]', options_for_select(@subcategories.map{ |subcategories| [ subcategories.name, subcategories.id ] },@subcategories.ids), class: 'select_subcategory', include_blank: 'Select a tag' %>
+<% else %>
+  Subcategory<%= select_tag 'product[subcategory_ids][]', {} %>
+<%end %>

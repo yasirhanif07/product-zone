@@ -1,0 +1,5 @@
+<% if params[:remove_results].present? %>
+  $('#all_products').html('<%= escape_javascript(render(partial: 'all_products')) %>')
+<%else %>
+  $('#all_products').html('<%= escape_javascript(render(partial: 'searched_products')) %>')
+<% end %>

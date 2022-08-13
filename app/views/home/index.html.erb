@@ -1,0 +1,30 @@
+<div id= 'home_index'>
+  <div id= 'banner'>
+    <%= render 'banner' %>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div id= 'body_sidebar'>
+          <%= render 'shared/home/sidebar' %>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div id= 'all_products'>
+          <%= render 'all_products' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id= "partner">
+  <%= render 'home/partner' %>
+</div>
+<div id= "footer">
+  <%= render 'home/footer' %>
+</div>
+<div class="modal fade" id="modal-window" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content"></div>
+  </div>
+</div>

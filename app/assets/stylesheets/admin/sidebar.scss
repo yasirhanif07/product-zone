@@ -1,0 +1,15 @@
+.vertical-nav{
+  min-width:272px;
+  width:272px;
+  height: 100%;
+  position:fixed;
+  top: 70px;
+  left: 0;
+  box-shadow: -2px -3px 4px 2px black;
+  .navbar-header{
+    .navbar-brand{
+      width: 164px;
+      margin: 0 auto;
+    }
+  }
+}

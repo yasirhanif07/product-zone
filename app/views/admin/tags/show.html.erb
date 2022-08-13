@@ -1,0 +1,19 @@
+<div class="page-content">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-12 mx-auto">
+      <div class="card-header d-flex align-items-center justify-content-between">
+        <h2 class="text-center my-3"><%= @tag.name%></h2>
+        <span>
+          <%= link_to 'Back', admin_tags_path,class:'btn btn-primary' %>
+          <%= link_to 'Edit', edit_admin_tag_path(@tag),class:'btn btn-primary' %>
+        </span>
+      </div>
+      <div class="card-body bg-light">
+        <div class="first-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Name</span>
+          <span class="mx-2"><%= @tag.name %></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

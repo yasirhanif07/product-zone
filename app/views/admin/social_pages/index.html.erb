@@ -1,0 +1,36 @@
+<div class="page-content">
+  <div class="mb-5 d-flex align-items-center justify-content-between">
+    <h1>Social Pages</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>Facebook</th>
+          <th>Twitter</th>
+          <th>InstaGram</th>
+          <th>Email</th>
+          <th>Trailer Video</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @social_pages.each do |page| %>
+          <tr>
+            <td><%= page.facebook_url&.truncate(12)%></td>
+            <td><%= page.twitter_url&.truncate(12)%></td>
+            <td><%= page.instagram_url&.truncate(12)%></td>
+            <td><%= page.email_url&.truncate(12)%></td>
+            <td><%= page.trailer_video_url&.truncate(12)%></td>
+            <td class="tr-space">
+              <%= link_to 'Show', admin_social_page_path(page), class: 'action_btn p-1 btn btn-success' %>
+              <%= link_to 'Edit', edit_admin_social_page_path(page), class: 'action_btn p-1 btn btn-secondary' %>
+              <%= link_to 'Delete', admin_social_page_path(page), method: :delete, data: { confirm: 'Are you sure?' }, class: 'action_btn danger p-1 btn btn-danger' %>
+            </td>
+          </tr>
+        <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

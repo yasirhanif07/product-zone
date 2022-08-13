@@ -1,0 +1,37 @@
+<div class="page-content">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-12 mx-auto">
+      <div class="card-header d-flex align-items-center justify-content-between">
+        <h2 class="text-center my-3">Home Page Links</h2>
+        <span>
+          <%= link_to 'Edit', edit_admin_social_page_path(@social_page),class:'btn btn-primary' %>
+          <%unless social_page.present? %>
+            <%= link_to 'New Home Page', new_admin_social_page_path, class: 'btn btn-primary' %>
+          <% end%>
+        </span>
+      </div>
+      <div class="card-body bg-light">
+        <div class="first-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Facbook URL:</span>
+          <span class="mx-2"><%= @social_page&.facebook_url %></span>
+        </div>
+        <div class="first-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Twitter URL:</span>
+          <span class="mx-2"><%= @social_page&.twitter_url %></span>
+        </div>
+        <div class="first-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Instagram URL:</span>
+          <span class="mx-2"><%= @social_page&.instagram_url %></span>
+        </div>
+        <div class="first-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Email URL:</span>
+          <span class="mx-2"><%= @social_page&.email_url %></span>
+        </div>
+        <div class="first-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-20">Trailer Video URL:</span>
+          <span class="mx-2"><%= @social_page&.trailer_video_url %></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

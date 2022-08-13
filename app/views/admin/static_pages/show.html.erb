@@ -1,0 +1,23 @@
+<div class="page-content">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-12 mx-auto">
+      <div class="card-header d-flex align-items-center justify-content-between">
+        <h2 class="text-center my-3"><%= @static_page.name %></h2>
+        <span>
+          <%= link_to 'Back', admin_static_pages_path,class:'btn btn-primary' %>
+          <%= link_to 'Edit', edit_admin_static_page_path(@static_page),class:'btn btn-primary' %>
+        </span>
+      </div>
+      <div class="card-body bg-light">
+        <div class="first-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Name</span>
+          <span class="mx-2"><%= @static_page.name %></span>
+        </div>
+        <div class="last-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Content</span>
+          <span class="mx-2"><%= @static_page.content.html_safe %></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

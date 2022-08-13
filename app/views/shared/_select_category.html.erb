@@ -1,0 +1,1 @@
+Category<%= select_tag :category_ids, options_for_select(@categories.map{ |cat| [ cat.name, cat.id ] }, @category&.id), include_blank: 'Select a Category', class: 'select_category'  %>

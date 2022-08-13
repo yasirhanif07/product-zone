@@ -1,0 +1,38 @@
+<div class="row d-flex justify-content-center align-items-center">
+  <div class="col-md-4 mx-auto">
+    <div class="custom-form">
+      <%= form_with model: [:admin, @social_page] do |form| %>
+        <% if @social_page.errors.any? %>
+          <%= render 'shared/error_messages', instance: @social_page %>
+        <% end %>
+        <div class="name my-3">
+          <%= form.label :facebook_url,'Facebook URL', class: 'my-2' %>
+          <%= form.text_field :facebook_url, class:'form-control' %>
+        </div>
+
+        <div class="name my-3">
+          <%= form.label :twitter_url, 'Twitter URL', class: 'my-2' %>
+          <%= form.text_field :twitter_url, class:'form-control' %>
+        </div>
+        <div class="name my-3">
+          <%= form.label :email_url, 'Email URL', class: 'my-2' %>
+          <%= form.text_field :email_url, class:'form-control' %>
+        </div>
+        <div class="name my-3">
+          <%= form.label :instagram_url,'Instagram URL', class: 'my-2' %>
+          <%= form.text_field :instagram_url, class:'form-control' %>
+
+        </div>
+        <div class="name my-3">
+          <%= form.label :trailer_video_url, 'Trailer Video URL', class: 'my-2' %>
+          <%= form.text_field :trailer_video_url, class:'form-control' %>
+        </div>
+
+        <div class="button my-3">
+          <%= form.submit class: 'btn btn-primary'%>
+      <% end %>
+
+      </div>
+    </div>
+  </div>
+</div>

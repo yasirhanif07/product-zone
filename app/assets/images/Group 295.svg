@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="398" height="290.008" viewBox="0 0 398 290.008">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_12" data-name="Path 12" d="M161-1379.846H559v-107.708H161Z" transform="translate(0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="67184.391" height="65535" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_8" data-name="Path 8" d="M395.76-1460.324l-35.73-20.089a7.336,7.336,0,0,0-7.692,0l-35.731,20.089a7.6,7.6,0,0,0-3.969,6.535v40.178a7.6,7.6,0,0,0,3.969,6.535l35.731,20.089a7.331,7.331,0,0,0,7.692,0l35.73-20.089a7.6,7.6,0,0,0,3.97-6.535v-40.178a8.816,8.816,0,0,0-3.97-6.535m-39.453,53.974c-15.384,0-28.038-12.1-28.038-27.35s12.407-27.35,28.038-27.35,28.039,12.1,28.039,27.35-12.655,27.35-28.039,27.35" transform="translate(-312.637 1481.502)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.163" y1="0.617" x2="0.207" y2="0.617" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.1" stop-color="#fff"/>
+      <stop offset="0.2" stop-color="#fff"/>
+      <stop offset="0.3" stop-color="#fff"/>
+      <stop offset="0.4" stop-color="#fff"/>
+      <stop offset="0.5" stop-color="#fff"/>
+      <stop offset="0.6" stop-color="#fff"/>
+      <stop offset="0.7" stop-color="#fff"/>
+      <stop offset="0.8" stop-color="#fff"/>
+      <stop offset="0.9" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.163" y1="0.617" x2="0.207" y2="0.617" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6216d"/>
+      <stop offset="0.1" stop-color="#e4216d"/>
+      <stop offset="0.2" stop-color="#df216d"/>
+      <stop offset="0.3" stop-color="#d9216f"/>
+      <stop offset="0.4" stop-color="#d12170"/>
+      <stop offset="0.5" stop-color="#c82172"/>
+      <stop offset="0.6" stop-color="#bc2174"/>
+      <stop offset="0.7" stop-color="#af2176"/>
+      <stop offset="0.8" stop-color="#a02178"/>
+      <stop offset="0.9" stop-color="#90217a"/>
+      <stop offset="1" stop-color="#7e217c"/>
+    </linearGradient>
+    <clipPath id="clip-path-5">
+      <path id="Path_11" data-name="Path 11" d="M371.6-1435.152l-21.339-13.554a2.687,2.687,0,0,0-4.219,2.178v27.108a2.65,2.65,0,0,0,4.219,2.179L371.6-1430.8a2.472,2.472,0,0,0,0-4.356" transform="translate(-346.038 1449.186)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.18" y1="0.617" x2="0.194" y2="0.617" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.18" y1="0.617" x2="0.194" y2="0.617" xlink:href="#linear-gradient-2"/>
+    <clipPath id="clip-path-7">
+      <path id="Path_131" data-name="Path 131" d="M488.482-1356.51a32,32,0,0,0-32,32h0a32,32,0,0,0,32,32h2.229a32,32,0,0,0,32-32h0a32,32,0,0,0-32-32h-2.229Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="0.238" y1="0.655" x2="0.272" y2="0.655" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe3c7a"/>
+      <stop offset="0.1" stop-color="#fb3b7a"/>
+      <stop offset="0.2" stop-color="#f43a7c"/>
+      <stop offset="0.3" stop-color="#ea387d"/>
+      <stop offset="0.4" stop-color="#de367f"/>
+      <stop offset="0.5" stop-color="#d03481"/>
+      <stop offset="0.6" stop-color="#bf3283"/>
+      <stop offset="0.7" stop-color="#ad2f86"/>
+      <stop offset="0.8" stop-color="#982c88"/>
+      <stop offset="0.9" stop-color="#822a8b"/>
+      <stop offset="1" stop-color="#6a278d"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_295" data-name="Group 295" transform="translate(-161 -2199.211)">
+    <g id="Group_294" data-name="Group 294" transform="translate(4.668)">
+      <g id="Group_136" data-name="Group 136" transform="translate(175.163 2486.018)">
+        <path id="Path_97" data-name="Path 97" d="M0,0H127.24" fill="none" stroke="#142a70" stroke-width="0.9"/>
+      </g>
+      <g id="Group_137" data-name="Group 137" transform="translate(311.042 2486.018)">
+        <path id="Path_98" data-name="Path 98" d="M0,0H93.814" fill="none" stroke="#142a70" stroke-width="0.9"/>
+      </g>
+      <g id="Group_138" data-name="Group 138" transform="translate(413.496 2486.018)">
+        <path id="Path_99" data-name="Path 99" d="M0,0H121.57" fill="none" stroke="#142a70" stroke-width="0.9"/>
+      </g>
+      <g id="Group" transform="translate(0 3742.1)">
+        <text id="Alle_koffiebonen" data-name="Alle koffiebonen" transform="translate(175.163 -1257.882)" fill="#142a70" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alle koffiebonen</tspan></text>
+        <text id="koffiebonen" transform="translate(311.045 -1257.882)" fill="#142a70" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">koffiebonen</tspan></text>
+        <text id="koffiemachines" transform="translate(413.501 -1257.882)" fill="#142a70" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">koffiemachines</tspan></text>
+      </g>
+    </g>
+    <g id="Group_291" data-name="Group 291" transform="translate(0 3742.1)">
+      <g id="Group_3" data-name="Group 3" transform="translate(161 -1542.889)">
+        <path id="Path_4" data-name="Path 4" d="M.5,0A20.256,20.256,0,0,0-20,20V198.379a20.257,20.257,0,0,0,20.5,20H357.5a20.257,20.257,0,0,0,20.5-20V20A20.256,20.256,0,0,0,357.5,0Z" transform="translate(20)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(0 3742.1)" clip-path="url(#clip-path)">
+      <g id="Group_17" data-name="Group 17" transform="translate(-33596.762 -32767)" style="isolation: isolate">
+        <g id="Group_16" data-name="Group 16">
+          <g id="Group_15" data-name="Group 15" clip-path="url(#clip-path-2)">
+            <g id="Group_9" data-name="Group 9" transform="translate(33913.215 31285.498)" clip-path="url(#clip-path-3)">
+              <g id="Group_7" data-name="Group 7" transform="translate(-33913.215 -31285.498)">
+                <g id="Group_6" data-name="Group 6" clip-path="url(#clip-path-2)">
+                  <g id="Group_5" data-name="Group 5" transform="translate(33592.711 29024.9)">
+                    <path id="Path_6" data-name="Path 6" d="M-312.595-2308.413H1655.728v3742.1H-312.595Z" transform="translate(312.595 2308.413)" fill="url(#linear-gradient)"/>
+                  </g>
+                </g>
+              </g>
+              <g id="Group_8" data-name="Group 8" transform="translate(-320.505 -2260.598)">
+                <path id="Path_7" data-name="Path 7" d="M-312.595-2308.413H1655.728v3742.1H-312.595Z" transform="translate(312.595 2308.413)" fill="url(#linear-gradient-2)"/>
+              </g>
+            </g>
+            <g id="Group_14" data-name="Group 14" transform="translate(33947.457 31317.814)" clip-path="url(#clip-path-5)">
+              <g id="Group_12" data-name="Group 12" transform="translate(-33947.457 -31317.814)">
+                <g id="Group_11" data-name="Group 11" clip-path="url(#clip-path-2)">
+                  <g id="Group_10" data-name="Group 10" transform="translate(33592.711 29024.9)">
+                    <path id="Path_9" data-name="Path 9" d="M-346.272-2309.174H1622.051v3742.1H-346.272Z" transform="translate(346.272 2309.174)" fill="url(#linear-gradient-3)"/>
+                  </g>
+                </g>
+              </g>
+              <g id="Group_13" data-name="Group 13" transform="translate(-354.747 -2292.914)">
+                <path id="Path_10" data-name="Path 10" d="M-346.272-2309.174H1622.051v3742.1H-346.272Z" transform="translate(346.272 2309.174)" fill="url(#linear-gradient-4)"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Path_89" data-name="Path 89" d="M0,0A32,32,0,0,0,0,64H192.965a32,32,0,0,0,0-64Z" transform="translate(224.403 2385.589)" fill="#142a70"/>
+    <text id="JBL_GO" data-name="JBL GO" transform="translate(294.652 2423.75)" fill="#fff" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.03em"><tspan x="0" y="0">JBL GO</tspan></text>
+    <g id="Group_191" data-name="Group 191" transform="translate(4.886 3742.1)" clip-path="url(#clip-path-7)">
+      <g id="Group_190" data-name="Group 190" transform="translate(456.482 -1292.511)">
+        <path id="Path_130" data-name="Path 130" d="M-456.482-2449.589h1920v3742.1h-1920Z" fill="url(#linear-gradient-5)"/>
+      </g>
+    </g>
+    <path id="Path_206" data-name="Path 206" d="M0,0A8.272,8.272,0,0,0-5.175,1.809l-8.871-5.545a8.348,8.348,0,0,0,0-3.608l8.871-5.544A8.272,8.272,0,0,0,0-11.079a8.309,8.309,0,0,0,8.309-8.31A8.309,8.309,0,0,0,0-27.7a8.309,8.309,0,0,0-8.309,8.309,8.311,8.311,0,0,0,.2,1.8l-8.871,5.545a8.274,8.274,0,0,0-5.175-1.809,8.309,8.309,0,0,0-8.31,8.309,8.309,8.309,0,0,0,8.31,8.31A8.274,8.274,0,0,0-16.983.961l8.871,5.544a8.24,8.24,0,0,0-.2,1.8A8.309,8.309,0,0,0,0,16.619a8.309,8.309,0,0,0,8.309-8.31A8.309,8.309,0,0,0,0,0" transform="translate(503.353 2423.129)" fill="#fff"/>
+  </g>
+</svg>

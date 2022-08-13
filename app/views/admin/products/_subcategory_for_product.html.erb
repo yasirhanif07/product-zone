@@ -1,0 +1,5 @@
+<%if @product.new_record? %>
+  Subcategory<%= select_tag :subcategory_id, class: 'select_subcategory' %>
+<% else %>
+  Subcategory<%= select_tag :subcategory_ids, options_for_select(@subcategories&.pluck(:name, :id),@subcategory.id), multiple:true , class: 'select_subcategory' %>
+<% end %>

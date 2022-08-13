@@ -1,0 +1,35 @@
+<div class="col-md-3 col-lg-3 mx-auto mt-5">
+  <h3 class="text-center my-3">Log In </h3>
+
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+      <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        <div class="form-outline mb-4">
+          <%= f.label :email %><br />
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", class:'form-control'%>
+        </div>
+
+        <div class="form-outline mb-4">
+          <%= f.label :password %><br />
+          <%= f.password_field :password, autocomplete: "current-password", class:'form-control'%>
+        </div>
+
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-6">
+            <% if devise_mapping.rememberable? %>
+              <div class="field">
+                <%= f.check_box :remember_me %>
+                <%= f.label :remember_me , class:'fs-6'%>
+              </div>
+            <% end %>
+          </div>
+        </div>
+
+          <div class="actions">
+            <%= f.submit "Log in", class:"btn btn-primary mt-3" %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

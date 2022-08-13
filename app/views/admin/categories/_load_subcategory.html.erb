@@ -1,0 +1,1 @@
+Subcategory<%= select_tag 'brand[subcategory_ids][]', options_for_select(@subcategories&.pluck(:name, :id)), multiple:true , class: 'select_subcategory' %>

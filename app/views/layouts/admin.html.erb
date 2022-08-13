@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ProductZone</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= javascript_include_tag Ckeditor.cdn_url%>
+    <%= stylesheet_link_tag 'admin', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'admin', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <% flash&.each do |type, msg| %>
+    <div id='flash_alert', class="<%= type == 'notice' ? 'alert alert-success mb-0' : 'alert alert-danger mb-0' %>">
+      <%= msg %>
+    </div>
+  <% end %>
+    <div>
+      <%= render 'layouts/admin/header' %>
+      <%= render 'layouts/admin/sidebar' %>
+      <div class='custom-page'>
+        <%= yield %>
+      </div>
+    </div>
+  </body>
+</html>

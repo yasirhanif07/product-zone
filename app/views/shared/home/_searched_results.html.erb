@@ -1,0 +1,36 @@
+<div class="main-body container">
+  <h2 class="display-6 fw-bold heading">Searched Results</h2>
+  <div class="row videos-link1 mb-4">
+    <%if @searched_products.present?  %>
+      <% @searched_products.each do |product| %>
+        <div class="col-lg-3 mb-5">
+          <div class="box">
+            <%= link_to render_video_products_path(video_url: product&.video_id),  {remote: true, 'data-toggle':  "modal", 'data-target': '#modal-window'} do %>
+              <div class="sub-box-img w-100 h-100 d-flex">
+                <% if product.image.present? %>
+                  <%= image_tag image_url(product.image), alt: 'logo img', class: 'w-100 '%>
+                <% end %>
+              </div>
+            <% end %>
+            <div class="sub-box-links d-flex">
+              <%= link_to product.name, product_path(product), class: "btn sublink-btn text-white fs-6 p-3" %>
+              <div class="sub-box-share-icon ms-2">
+                <a href="javascript:void(0)"><%= image_tag 'Group 322.svg', alt: 'logo img', class: 'w-100'%></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <%end %>
+    <%else %>
+      <div class="box">
+        <h4 class="mb-0 d-flex align-items-center justify-content-center h-100">There is no product matched</h4>
+      </div>
+    <%end %>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-window" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content"></div>
+  </div>
+</div>

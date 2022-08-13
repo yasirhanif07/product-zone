@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.888" height="72.901" viewBox="0 0 72.888 72.901">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_170" data-name="Path 170" d="M1406.556-2645.437a29.609,29.609,0,0,0,29.612,29.613h0a29.472,29.472,0,0,0,18.224-6.264h0v2.32a3.415,3.415,0,0,0,1,2.421h0l14.194,14.194a3.4,3.4,0,0,0,4.827,0h0l4.028-4.03a3.431,3.431,0,0,0,.015-4.84h0l-14.195-14.2a3.416,3.416,0,0,0-2.42-1h-2.321a29.463,29.463,0,0,0,6.265-18.223h0a29.609,29.609,0,0,0-29.614-29.613h0a29.609,29.609,0,0,0-29.612,29.613m11.389,0a18.213,18.213,0,0,1,18.223-18.223h0a18.213,18.213,0,0,1,18.224,18.223h0a18.213,18.213,0,0,1-18.224,18.223h0a18.213,18.213,0,0,1-18.223-18.223" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.733" y1="0.305" x2="0.771" y2="0.305" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe3c7a"/>
+      <stop offset="0.1" stop-color="#fb3b7a"/>
+      <stop offset="0.2" stop-color="#f43a7c"/>
+      <stop offset="0.3" stop-color="#ea387d"/>
+      <stop offset="0.4" stop-color="#de367f"/>
+      <stop offset="0.5" stop-color="#d03481"/>
+      <stop offset="0.6" stop-color="#bf3283"/>
+      <stop offset="0.7" stop-color="#ad2f86"/>
+      <stop offset="0.8" stop-color="#982c88"/>
+      <stop offset="0.9" stop-color="#822a8b"/>
+      <stop offset="1" stop-color="#6a278d"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_248" data-name="Group 248" transform="translate(-1406.556 2675.05)" clip-path="url(#clip-path)">
+    <g id="Group_247" data-name="Group 247" transform="translate(1406.556 -2602.15)">
+      <path id="Path_169" data-name="Path 169" d="M-1406.556-1139.95h1920v3742.1h-1920Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<div class="page-content">
+  <div class="mb-5 d-flex align-items-center justify-content-between">
+    <h1>Tags</h1>
+    <%= link_to 'New Tag', new_admin_tag_path, class: 'btn btn-primary' %>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>Name</th>
+          <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @tags.each do |tag| %>
+          <tr>
+            <td><%= tag.name%></td>
+            <td class="tr-space">
+              <%= link_to 'Show', admin_tag_path(tag), class: 'action_btn p-1 btn btn-success' %>
+              <%= link_to 'Edit', edit_admin_tag_path(tag), class: 'action_btn p-1 btn btn-secondary' %>
+              <%= link_to 'Delete', admin_tag_path(tag), method: :delete, data: { confirm: 'Are you sure?' }, class: 'action_btn danger p-1 btn btn-danger' %>
+            </td>
+          </tr>
+        <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

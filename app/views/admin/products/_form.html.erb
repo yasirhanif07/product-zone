@@ -1,0 +1,48 @@
+<div class="row d-flex justify-content-center align-items-center">
+  <div class="col-md-4 mx-auto">
+    <div class="custom-form">
+      <%= form_with model: [:admin, @product] do |form| %>
+        <% if @product.errors.any? %>
+          <%= render 'shared/error_messages', instance: @product %>
+        <% end %>
+        <div id='category' class="my-4">
+          <%= render 'shared/select_category' %>
+        </div>
+
+        <div id='subcategories' class="my-4" >
+          <%= render 'subcategory_for_product' %>
+        </div>
+
+        <div id='brands' class="my-4" >
+          <%= render 'select_brand' %>
+        </div>
+        <div class="name my-3">
+          <%= form.label :name, class: 'my-2' %>
+          <%= form.text_field :name, class:'form-control' %>
+        </div>
+
+        <div class="description my-3">
+          <%= form.label :description, class:'my-2' %>
+          <%= form.text_area :description, class:'form-control' %>
+        </div>
+
+        <div class="description my-3">
+          <%= form.label :Image, class:'my-2' %>
+          <%= form.file_field :image, class:'form-control' %>
+        </div>
+
+        <div class="video_id my-3">
+          <%= form.label :video_id, class:'my-2' %>
+          <%= form.text_field :video_id, class:'form-control' %>
+        </div>
+
+        <div class="tag my-3">
+          Tags<%= select_tag 'product[tag_ids][]', options_for_select(@tags.map{ |tag| [ tag.name, tag.id ] }, @selected_tags&.ids), {:multiple => true} %>
+        </div>
+
+        <%= form.submit class: 'btn btn-primary'%>
+          <%= link_to 'Back', admin_products_path, class:'btn btn-secondary mx-2' %>
+        <% end %>
+    </div>
+  </div>
+</div>

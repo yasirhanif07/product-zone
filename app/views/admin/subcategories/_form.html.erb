@@ -1,0 +1,28 @@
+<div class="row d-flex justify-content-center align-items-center">
+  <div class="col-md-4 mx-auto">
+    <div class="custom-form">
+      <%= form_with model: [:admin, @subcategory] do |form| %>
+        <% if @subcategory.errors.any? %>
+          <%= render 'shared/error_messages', instance: @subcategory %>
+        <% end %>
+
+        <p>Category: <%= form.select :category_id, @categories.map { |category| [ category.name, category.id ] },:include_blank => 'Select a Category' %></p>
+
+        <div class="name my-3">
+          <%= form.label :name, class: 'my-2' %>
+          <%= form.text_field :name, class:'form-control' %>
+        </div>
+
+        <div class="description my-3">
+          <%= form.label :description, class: 'my-2' %>
+          <%= form.text_area :description, class:'form-control' %>
+        </div>
+
+        <div class="button my-3">
+          <%= form.submit class: 'btn btn-primary'%>
+          <%= link_to 'Back', admin_categories_path,class:'btn btn-secondary mx-2' %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

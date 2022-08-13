@@ -1,0 +1,33 @@
+<div class="page-content">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-12 mx-auto">
+      <div class="card-header d-flex align-items-center justify-content-between">
+        <h2 class="text-center my-3"><%= @product.name %></h2>
+        <span>
+          <%= link_to 'Back', admin_product_path, class:'btn btn-primary' %>
+          <%= link_to 'Edit', edit_admin_product_path(@product), class:'btn btn-primary' %>
+        </span>
+      </div>
+      <div class="card-body bg-light">
+        <div class="first-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Name</span>
+          <span class="mx-2"><%= @product.name %></span>
+        </div>
+        <div class="last-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Description</span>
+          <span class="mx-2"><%= @product.description %></span>
+        </div>
+        <div class="last-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Product Image</span>
+          <% if @product.image.present? %>
+            <span class="mx-2"><%= image_tag image_url(@product.image), size:"400x200" %></span>
+          <% end %>
+        </div>
+        <div class="last-name d-flex align-items-center mt-4 justify-content-start">
+          <span class="mx-2 w-15">Video ID</span>
+          <span class="mx-2"><%= @product.video_id %></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

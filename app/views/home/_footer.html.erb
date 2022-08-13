@@ -1,0 +1,47 @@
+<div class="footer-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-body py-5">
+          <a class="navbar-brand" href="#">
+            <%= image_tag 'Group 320.svg', alt: '', class: ''%>
+          </a>
+          <p class="footer-text w-50">Productzone de productvideo vergelijkingswebsite. In maximaal 90 seconden worden de belangrijkste eigenschappen van een product belicht.
+            Objectief, mer.partner-boximgkonafhankelijk zonder reclame</p>
+          <ul class="footer-list p-0 d-flex align-items-center justify-content-start">
+            <li>
+              <a href="<%= social_url(@social_page&.twitter_url) %>" target="<%= target_blank(@social_page&.twitter_url) %>">
+                <%= image_tag 'Group 286.svg', alt: '', class: ''%>
+              </a>
+            </li>
+            <li>
+              <a href="<%= social_url(@social_page&.facebook_url) %>" target="<%= target_blank(@social_page&.facebook_url) %>">
+                <%= image_tag 'Group 287.svg', alt: '', class: ''%>
+              </a>
+            </li>
+            <li>
+              <a href="<%= social_url(@social_page&.instagram_url) %>" target="<%= target_blank(@social_page&.instagram_url) %>">
+                <%= image_tag 'Group 288.svg', alt: '', class: ''%>
+              </a>
+            </li>
+            <li>
+              <a href="mailto: <%= social_url(@social_page&.email_url) %>" target="<%= target_blank(@social_page&.email_url) %>">
+                <%= image_tag 'Group 289.svg', alt: '', class: ''%>
+              </a>
+            </li>
+          </ul>
+          <div class="footer-details d-flex align-items-center justify-content-between pt-4">
+            <h6 class="footer-endtext mb-0 py-2 me-md-3">Productzone 2022</h6>
+            <ul class="footer-list p-0 d-flex align-items-center justify-content-end mb-0 py-2 ms-md-3">
+              <% StaticPage.all.each do |page| %>
+                <li class="pe-0 ps-3">
+                  <%= link_to page.name, page_path(page), class: 'text-white text-decoration-none', target:"_blank" %>
+                </li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

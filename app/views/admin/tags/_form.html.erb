@@ -1,0 +1,21 @@
+<div class="row d-flex justify-content-center align-items-center">
+  <div class="col-md-4 mx-auto">
+    <div class="custom-form">
+      <%= form_with model: [:admin, @tag] do |form| %>
+        <% if @tag.errors.any? %>
+          <%= render 'shared/error_messages', instance: @tag %>
+        <% end %>
+
+        <div class="name my-3">
+          <%= form.label :name, class: 'my-2' %>
+          <%= form.text_field :name, class:'form-control' %>
+        </div>
+
+        <div class="button my-3">
+          <%= form.submit class: 'btn btn-primary'%>
+          <%= link_to 'Back', admin_tags_path,class:'btn btn-secondary mx-2' %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

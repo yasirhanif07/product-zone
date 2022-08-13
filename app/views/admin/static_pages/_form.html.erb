@@ -1,0 +1,23 @@
+<div class="row d-flex justify-content-center align-items-center">
+  <div class="custom-form">
+    <%= form_with model: [:admin, @static_page] do |form| %>
+      <% if @static_page.errors.any? %>
+        <%= render 'shared/error_messages', instance: @static_page %>
+      <% end %>
+
+      <div class="name my-3 col-md-4">
+        <%= form.label :name %><br>
+        <%= form.text_field :name, class:'form-control' %>
+      </div>
+
+      <div class="name my-3">
+        <%= form.label :content %><br>
+        <%=form.cktext_area :content, class: 'form-control', ckeditor: {toolbar: 'email'}%>
+      </div>
+
+      <div class="button my-3">
+        <%= form.submit class: 'btn btn-primary' %>
+      </div>
+    <% end %>
+  </div>
+</div>

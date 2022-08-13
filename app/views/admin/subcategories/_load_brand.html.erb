@@ -1,0 +1,1 @@
+Brand<%= select_tag 'product[brand_id]', options_for_select(@brands.map{ |brand| [ brand.name, brand.id ] }), include_blank: 'Select a Brand', class: 'select_brand' %>

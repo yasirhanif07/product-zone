@@ -1,0 +1,5 @@
+$('#subcategories').html('<%= raw escape_javascript(render(:partial => 'load_subcategory', instance: @subcategories)) %>')
+$('.select_brand').empty().append($('<option>', {
+    text: 'Select a brand'
+}));
+$('select').select2();

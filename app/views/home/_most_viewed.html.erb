@@ -1,0 +1,35 @@
+<div class="main-body container">
+  <h2 class="display-6 fw-bold heading"></h2>
+  <div class="row videos-link1">
+    <% @most_viewed.each do |product| %>
+      <div class="col-lg-3 mb-5">
+        <div class="box">
+          <%= link_to  render_video_products_path(video_url: product&.video_id),  {remote: true, 'data-toggle':  "modal", 'data-target': '#modal-window'} do %>
+            <div class="sub-box-img w-100 h-100 d-flex">
+              <% if product.image.present? %>
+                <%= image_tag image_url(product.image), alt: 'logo img', class: 'w-100 '%>
+              <% end %>
+            </div>
+            <div class="count badge badge-dark bg-dark">
+              <i class="fa fa-eye"></i>
+              <span><%= product&.viewed_count || 0 %></span>
+            </div>
+          <% end %>
+          <div class="sub-box-links d-flex">
+            <%= link_to product.name, product_path(product), class: "btn sublink-btn text-white fs-6 p-3" %>
+            <div class="sub-box-share-icon ms-2">
+              <%= link_to product_path(product) do %>
+                <%= image_tag 'Group 322.svg', alt: 'logo img', class: 'w-100'%>
+              <% end %>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <% product&.tags.limit(3).each do |tag| %>
+            <span><%= link_to tag.name, search_by_tag_products_path(tag_id: tag.id) %></span>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
